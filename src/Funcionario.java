@@ -1,9 +1,24 @@
 public class Funcionario {
-    String nome;
+    private String nome;
 
-    String cargo;
+    private String cargo;
 
-    double salario;
+    private double salario;
+
+
+    public Funcionario(String nome, double salario) {
+        this.nome = nome;
+        this.salario = salario;
+    }
+
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
 
     public void exibirInformacoes() {
         System.out.printf("\nFuncionario %s - Cargo> %s - Salário %.2f", nome, cargo, salario);
