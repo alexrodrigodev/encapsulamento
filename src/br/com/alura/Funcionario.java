@@ -1,6 +1,6 @@
 package br.com.alura;
 
-public class Funcionario {
+public abstract class Funcionario {
 
     protected String nome;
 
@@ -53,5 +53,9 @@ public class Funcionario {
         System.out.printf("\nSalário com dissídio de de %s é %.2f ", nome, salario);
 
     }
+
+
+    public abstract void calcularPLR();
+
 }
 

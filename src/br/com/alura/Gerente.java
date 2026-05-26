@@ -21,4 +21,9 @@ public class Gerente extends Funcionario {
     public void exibirInformacoes() {
         System.out.printf("Gerente: %s - salário %.2f - bônus: %.2f", nome, salario, bonus);
     }
+
+    @Override
+    public void calcularPLR() {
+        System.out.println("PLR do Gerente: ");
+    }
 }
