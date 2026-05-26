@@ -2,11 +2,11 @@ package br.com.alura;
 
 public class Funcionario {
 
-    private String nome;
+    protected String nome;
 
     private String cargo;
 
-    private double salario;
+    protected double salario;
 
     private int controleReajuste = 0;
 
