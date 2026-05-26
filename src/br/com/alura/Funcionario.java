@@ -47,5 +47,11 @@ public class Funcionario {
             System.out.printf("\nNovo salario de %s é %.2f ", nome, salario);
         }
     }
+
+    public void reajustarSalario() {
+        salario += 500;
+        System.out.printf("\nSalário com dissídio de de %s é %.2f ", nome, salario);
+
+    }
 }
 
