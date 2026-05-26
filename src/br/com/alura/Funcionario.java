@@ -1,4 +1,7 @@
+package br.com.alura;
+
 public class Funcionario {
+
     private String nome;
 
     private String cargo;
@@ -45,3 +48,4 @@ public class Funcionario {
         }
     }
 }
+
